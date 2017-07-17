@@ -109,7 +109,7 @@ public class Model {
     public Tile[][] getGameTiles() {
         return gameTiles;
     }
-    
+
     public boolean canMove() {
         if (!getEmptyTiles().isEmpty()) return true;
         for (int i = 0; i < FIELD_WIDTH; i++)
